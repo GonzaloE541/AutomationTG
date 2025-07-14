@@ -7,8 +7,9 @@ import json
 from datetime import datetime
 
 class LicenseClient:
-    def __init__(self, server_url="http://localhost:8080"):
-        self.server_url = server_url
+    def __init__(self, server_url="http://127.0.0.1:8080"):
+        # Cambiar aquí la URL del servidor a la URL pública de ngrok
+        self.server_url = "https://be389ed3e5cf.ngrok-free.app"
         self.hardware_id = self._get_hardware_id()
         self.user_data = None
         self.session = None
