@@ -1,0 +1,6 @@
+pyrogram
+tgcrypto
+python-dotenv
+aiohttp
+aiohttp-cors
+websockets
